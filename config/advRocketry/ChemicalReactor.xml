@@ -1,0 +1,3660 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="true">
+	<Recipe timeRequired="40" power ="20">
+		<input>
+			<itemStack>advancedRocketry:item.carbonScrubberCartridge 1 32767</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:item.carbonScrubberCartridge</itemStack>
+			<itemStack>minecraft:coal 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>minecraft:bone</itemStack>
+			<fluidStack>nitrogen 10</fluidStack>
+		</input>
+		<output>
+			<itemStack>minecraft:dye 5 15</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<fluidStack>oxygen 10</fluidStack>
+			<fluidStack>hydrogen 10</fluidStack>
+		</input>
+		<output>
+			<fluidStack>rocketfuel 20</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorNanoChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorNanoChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Mekanism:ScubaTank</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Mekanism:ScubaTank</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.angmallen.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.angmallen.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:GlowstoneBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:GlowstoneBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.quicksilver.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.quicksilver.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.sanguinite.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.sanguinite.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.fieryHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.fieryHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>simplyjetpacks:jetpacks</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>simplyjetpacks:jetpacks</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemBootsRobe</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemBootsRobe</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemBootsCultist</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemBootsCultist</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorNanoBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorNanoBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemChestplateVoid</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemChestplateVoid</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.yetiHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.yetiHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.arcticBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.arcticBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:manaweaveHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:manaweaveHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.helmetSilver</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.helmetSilver</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemLeggingsVoidFortress</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemLeggingsVoidFortress</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RandomThings:spectreHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RandomThings:spectreHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:chainmail_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:chainmail_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.copper.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.copper.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:manasteelBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:manasteelBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.haderoth.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.haderoth.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_nvg</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_nvg</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.helmetElectrum</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.helmetElectrum</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorQuantumHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorQuantumHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.damascus.steel.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.damascus.steel.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.vulcanite.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.vulcanite.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.brass.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.brass.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.deep.iron.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.deep.iron.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.vyroxeres.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.vyroxeres.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:terrasteelHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:terrasteelHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.plateElectrum</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.plateElectrum</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.bootsPlatinum</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.bootsPlatinum</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:iron_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:iron_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.tartarite.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.tartarite.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemBootsVoid</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemBootsVoid</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemLeggingsThaumium</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemLeggingsThaumium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.steel.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.steel.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemChestplateCultistRobe</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemChestplateCultistRobe</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Mekanism:GasMask</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Mekanism:GasMask</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorJetpackElectric</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorJetpackElectric</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Forestry:apiaristBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Forestry:apiaristBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorJetpack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorJetpack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemChestplateThaumium</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemChestplateThaumium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:terrasteelHelmReveal</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:terrasteelHelmReveal</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.steel.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.steel.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_bedhelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_bedhelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.astral.silver.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.astral.silver.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_bedboots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_bedboots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:LapisLazuliLeggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:LapisLazuliLeggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.helmetNickel</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.helmetNickel</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorHazmatLeggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorHazmatLeggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.knightlyBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.knightlyBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.amordrine.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.amordrine.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:elementiumHelmReveal</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:elementiumHelmReveal</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TConstruct:travelWings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:travelWings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.tartarite.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.tartarite.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>OpenBlocks:sonicglasses</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>OpenBlocks:sonicglasses</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.silver.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.silver.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.atlarus.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.atlarus.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_jetpack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_jetpack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:OsmiumLeggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:OsmiumLeggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>simplyjetpacks:jetpacksCommon</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>simplyjetpacks:jetpacksCommon</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.plateNaga</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.plateNaga</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ReactorCraft:reactorcraft_item_hazhelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ReactorCraft:reactorcraft_item_hazhelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorBronzeBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorBronzeBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.brass.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.brass.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:GlowstoneChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:GlowstoneChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RandomThings:spectreChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RandomThings:spectreChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.silver.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.silver.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:LapisLazuliHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:LapisLazuliHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemLeggingsCultistLeaderPlate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemLeggingsCultistLeaderPlate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemLeggingsCultistRobe</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemLeggingsCultistRobe</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.steeleafPlate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.steeleafPlate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorAdvBatpack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorAdvBatpack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.electrum.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.electrum.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Forestry:naturalistHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Forestry:naturalistHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.mithril.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.mithril.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:OsmiumChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:OsmiumChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:BootsTraveller</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:BootsTraveller</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.bronze.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.bronze.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.quicksilver.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.quicksilver.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.vulcanite.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.vulcanite.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Mekanism:Jetpack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Mekanism:Jetpack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.helmetTin</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.helmetTin</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.inolashite.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.inolashite.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.angmallen.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.angmallen.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.phantomHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.phantomHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.prometheum.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.prometheum.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.ironwoodHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.ironwoodHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TConstruct:travelBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:travelBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.oureclase.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.oureclase.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.midasium.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.midasium.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.atlarus.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.atlarus.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.orichalcum.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.orichalcum.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:elementiumLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:elementiumLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:elementiumChest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:elementiumChest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_steellegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_steellegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.phantomPlate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.phantomPlate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.steeleafHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.steeleafHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.copper.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.copper.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_bedpack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_bedpack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorBronzeHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorBronzeHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.hepatizon.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.hepatizon.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:LapisLazuliChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:LapisLazuliChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:leather_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:leather_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.desichalkos.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.desichalkos.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.tartarite.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.tartarite.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:diamond_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:diamond_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ReactorCraft:reactorcraft_item_hazlegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ReactorCraft:reactorcraft_item_hazlegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.legsSilver</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.legsSilver</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.prometheum.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.prometheum.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.plateBronze</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.plateBronze</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.helmetCopper</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.helmetCopper</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_steelhelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_steelhelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemStaticBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemStaticBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.adamantine.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.adamantine.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.bronze.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.bronze.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.plateTin</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.plateTin</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.electrum.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.electrum.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:BronzeLeggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:BronzeLeggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.electrum.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.electrum.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.shadow.iron.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.shadow.iron.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemSolarHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemSolarHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.ceruclase.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.ceruclase.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.kalendrite.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.kalendrite.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.sanguinite.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.sanguinite.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.vyroxeres.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.vyroxeres.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.orichalcum.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.orichalcum.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorNanoHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorNanoHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.bootsSilver</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.bootsSilver</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.legsNickel</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.legsNickel</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.desichalkos.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.desichalkos.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_bedreveal</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_bedreveal</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:diamond_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:diamond_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.sanguinite.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.sanguinite.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.black.steel.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.black.steel.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.ceruclase.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.ceruclase.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.black.steel.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.black.steel.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Railcraft:armor.goggles</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Railcraft:armor.goggles</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.legsElectrum</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.legsElectrum</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:SteelLeggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:SteelLeggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.amordrine.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.amordrine.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.bronze.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.bronze.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:chainmail_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:chainmail_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.shadow.iron.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.shadow.iron.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.ignatius.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.ignatius.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.platinum.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.platinum.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ExtraUtilities:sonar_goggles</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ExtraUtilities:sonar_goggles</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.carmot.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.carmot.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.oureclase.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.oureclase.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorAlloyChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorAlloyChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.bootsNickel</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.bootsNickel</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>OpenBlocks:seriousGlasses</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>OpenBlocks:seriousGlasses</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TConstruct:bootsWood</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:bootsWood</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>OpenBlocks:technicolorGlasses</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>OpenBlocks:technicolorGlasses</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_steelchest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_steelchest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.ceruclase.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.ceruclase.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.vulcanite.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.vulcanite.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>EnderIO:item.darkSteel_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>EnderIO:item.darkSteel_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Railcraft:armor.steel.legs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Railcraft:armor.steel.legs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemLeggingsCultistPlate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemLeggingsCultistPlate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:GlowstoneLeggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:GlowstoneLeggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.carmot.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.carmot.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.fieryBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.fieryBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemNightvisionGoggles</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemNightvisionGoggles</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MineFactoryReloaded:plastic.chest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MineFactoryReloaded:plastic.chest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:ObsidianChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:ObsidianChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_iogoggles</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_iogoggles</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.tartarite.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.tartarite.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.copper.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.copper.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.angmallen.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.angmallen.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.bootsTin</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.bootsTin</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.eximite.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.eximite.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Railcraft:armor.steel.plate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Railcraft:armor.steel.plate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:golden_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:golden_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.yetiBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.yetiBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.astral.silver.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.astral.silver.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:elementiumHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:elementiumHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:HoverHarness</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:HoverHarness</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.adamantine.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.adamantine.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.eximite.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.eximite.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.plateLead</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.plateLead</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.midasium.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.midasium.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.legsCopper</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.legsCopper</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:GlowstoneHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:GlowstoneHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.shadow.iron.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.shadow.iron.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:manaweaveChest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:manaweaveChest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:ObsidianBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:ObsidianBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:manasteelHelmReveal</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:manasteelHelmReveal</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.legsInvar</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.legsInvar</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:chainmail_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:chainmail_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.midasium.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.midasium.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:ObsidianLeggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:ObsidianLeggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.ignatius.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.ignatius.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:elementiumBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:elementiumBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.vyroxeres.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.vyroxeres.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.eximite.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.eximite.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorCFPack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorCFPack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.kalendrite.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.kalendrite.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.hepatizon.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.hepatizon.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.damascus.steel.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.damascus.steel.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>OpenBlocks:craneBackpack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>OpenBlocks:craneBackpack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RandomThings:spectreLeggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RandomThings:spectreLeggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.haderoth.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.haderoth.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.bootsCopper</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.bootsCopper</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorBatpack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorBatpack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ReactorCraft:reactorcraft_item_hazchest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ReactorCraft:reactorcraft_item_hazchest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Mekanism:ArmoredJetpack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Mekanism:ArmoredJetpack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:manasteelLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:manasteelLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemHelmetCultistLeaderPlate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemHelmetCultistLeaderPlate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:iron_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:iron_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>EnderIO:item.darkSteel_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>EnderIO:item.darkSteel_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.bronze.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.bronze.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.ignatius.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.ignatius.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Railcraft:armor.overalls</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Railcraft:armor.overalls</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_steelpack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_steelpack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:chainmail_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:chainmail_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.helmetPlatinum</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.helmetPlatinum</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.bootsElectrum</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.bootsElectrum</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.astral.silver.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.astral.silver.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.angmallen.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.angmallen.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.black.steel.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.black.steel.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.shadow.steel.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.shadow.steel.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.platePlatinum</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.platePlatinum</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemHelmetVoid</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemHelmetVoid</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.legsLead</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.legsLead</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.shadow.steel.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.shadow.steel.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.celenegil.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.celenegil.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.prometheum.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.prometheum.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:BronzeHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:BronzeHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.platinum.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.platinum.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:SteelBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:SteelBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorRubBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorRubBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.ironwoodPlate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.ironwoodPlate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorHazmatHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorHazmatHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>OpenComputers:hoverBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>OpenComputers:hoverBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>simplyjetpacks:fluxpacks</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>simplyjetpacks:fluxpacks</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.atlarus.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.atlarus.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.mithril.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.mithril.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.vyroxeres.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.vyroxeres.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorEnergypack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorEnergypack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemLeggingsFortress</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemLeggingsFortress</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.steel.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.steel.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.hepatizon.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.hepatizon.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TConstruct:chestplateWood</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:chestplateWood</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.helmetBronze</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.helmetBronze</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.knightlyLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.knightlyLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.plateSilver</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.plateSilver</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.adamantine.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.adamantine.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TConstruct:travelGoggles</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:travelGoggles</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorNanoLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorNanoLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemChestplateVoidFortress</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemChestplateVoidFortress</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:iron_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:iron_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_steelboots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_steelboots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.shadow.steel.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.shadow.steel.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.deep.iron.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.deep.iron.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MineFactoryReloaded:plastic.legs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MineFactoryReloaded:plastic.legs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>EnderIO:item.darkSteel_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>EnderIO:item.darkSteel_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Railcraft:armor.steel.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Railcraft:armor.steel.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.legsTin</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.legsTin</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:SteelHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:SteelHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemChestplateCultistPlate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemChestplateCultistPlate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:ObsidianHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:ObsidianHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:leather_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:leather_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemHelmetVoidFortress</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemHelmetVoidFortress</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:BronzeChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:BronzeChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.arcticLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.arcticLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.kalendrite.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.kalendrite.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>OpenBlocks:pencilGlasses</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>OpenBlocks:pencilGlasses</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MineFactoryReloaded:plastic.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MineFactoryReloaded:plastic.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.damascus.steel.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.damascus.steel.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.mithril.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.mithril.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.arcticPlate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.arcticPlate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.atlarus.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.atlarus.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.brass.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.brass.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorQuantumLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorQuantumLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorBronzeLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorBronzeLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Forestry:apiaristLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Forestry:apiaristLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemHelmetCultistPlate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemHelmetCultistPlate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:terrasteelChest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:terrasteelChest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.helmetInvar</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.helmetInvar</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.helmetLead</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.helmetLead</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.damascus.steel.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.damascus.steel.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.plateNickel</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.plateNickel</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:SteelChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:SteelChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.silver.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.silver.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorQuantumBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorQuantumBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.mithril.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.mithril.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.orichalcum.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.orichalcum.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:OsmiumBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:OsmiumBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.bootsLead</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.bootsLead</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:leather_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:leather_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.inolashite.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.inolashite.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:manaweaveBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:manaweaveBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>simplyjetpacks:fluxpacksCommon</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>simplyjetpacks:fluxpacksCommon</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:golden_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:golden_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:manasteelHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:manasteelHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.fieryPlate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.fieryPlate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Mekanism:FreeRunners</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Mekanism:FreeRunners</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.sanguinite.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.sanguinite.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_bedjump</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_bedjump</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemHelmetFortress</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemHelmetFortress</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Railcraft:armor.steel.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Railcraft:armor.steel.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.amordrine.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.amordrine.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemLeggingsRobe</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemLeggingsRobe</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.yetiPlate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.yetiPlate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.inolashite.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.inolashite.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorBronzeChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorBronzeChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:manasteelChest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:manasteelChest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.knightlyPlate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.knightlyPlate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_jump</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_jump</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:diamond_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:diamond_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.kalendrite.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.kalendrite.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.fieryLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.fieryLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ReactorCraft:reactorcraft_item_hazboots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ReactorCraft:reactorcraft_item_hazboots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.ceruclase.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.ceruclase.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:LapisLazuliBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:LapisLazuliBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.haderoth.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.haderoth.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.legsNaga</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.legsNaga</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.vulcanite.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.vulcanite.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemHelmetCultistRobe</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemHelmetCultistRobe</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.celenegil.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.celenegil.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.prometheum.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.prometheum.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemBootsThaumium</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemBootsThaumium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.yetiLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.yetiLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.steeleafBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.steeleafBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:manaweaveLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:manaweaveLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemLeggingsVoid</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemLeggingsVoid</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>EnderIO:item.darkSteel_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>EnderIO:item.darkSteel_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.celenegil.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.celenegil.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Forestry:apiaristChest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Forestry:apiaristChest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>OpenBlocks:crayonGlasses</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>OpenBlocks:crayonGlasses</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.carmot.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.carmot.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.haderoth.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.haderoth.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.oureclase.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.oureclase.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.orichalcum.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.orichalcum.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:golden_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:golden_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_bedchest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_bedchest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.platinum.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.platinum.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.legsBronze</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.legsBronze</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.electrum.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.electrum.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Forestry:apiaristHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Forestry:apiaristHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:terrasteelLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:terrasteelLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.quicksilver.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.quicksilver.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.plateCopper</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.plateCopper</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.legsPlatinum</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.legsPlatinum</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.brass.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.brass.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.midasium.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.midasium.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.ignatius.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.ignatius.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.shadow.steel.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.shadow.steel.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.oureclase.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.oureclase.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorQuantumChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorQuantumChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.plateInvar</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.plateInvar</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.platinum.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.platinum.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.desichalkos.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.desichalkos.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.amordrine.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.amordrine.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MineFactoryReloaded:glass.helm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MineFactoryReloaded:glass.helm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.knightlyHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.knightlyHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.bootsInvar</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.bootsInvar</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TConstruct:travelVest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:travelVest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RotaryCraft:rotarycraft_item_bedlegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RotaryCraft:rotarycraft_item_bedlegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.copper.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.copper.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemHelmetThaumium</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemHelmetThaumium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.hepatizon.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.hepatizon.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MineFactoryReloaded:plastic.helm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MineFactoryReloaded:plastic.helm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemChestplateCultistLeaderPlate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemChestplateCultistLeaderPlate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ThermalFoundation:armor.bootsBronze</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ThermalFoundation:armor.bootsBronze</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TConstruct:helmetWood</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:helmetWood</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.arcticHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.arcticHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.carmot.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.carmot.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TConstruct:leggingsWood</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TConstruct:leggingsWood</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:leather_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:leather_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.silver.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.silver.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:iron_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:iron_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>IC2:itemArmorHazmatChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemArmorHazmatChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.adamantine.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.adamantine.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>OpenBlocks:sleepingBag</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>OpenBlocks:sleepingBag</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.quicksilver.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.quicksilver.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.deep.iron.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.deep.iron.chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:diamond_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:diamond_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.ironwoodBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.ironwoodBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>RandomThings:spectreBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>RandomThings:spectreBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:BronzeBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:BronzeBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemGoggles</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemGoggles</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.steel.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.steel.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.ironwoodLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.ironwoodLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>MekanismTools:OsmiumHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>MekanismTools:OsmiumHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.shadow.iron.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.shadow.iron.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.celenegil.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.celenegil.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.deep.iron.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.deep.iron.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemChestplateFortress</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemChestplateFortress</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Thaumcraft:ItemChestplateRobe</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Thaumcraft:ItemChestplateRobe</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.eximite.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.eximite.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.black.steel.boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.black.steel.boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:golden_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:golden_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Botania:terrasteelBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Botania:terrasteelBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.astral.silver.helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.astral.silver.helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.desichalkos.leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.desichalkos.leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>TwilightForest:item.steeleafLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>TwilightForest:item.steeleafLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>Metallurgy:metallurgy.inolashite.chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>Metallurgy:metallurgy.inolashite.chestplate</itemStack>
+		</output>
+	</Recipe>
+</Recipes>

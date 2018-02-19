@@ -732,7 +732,6 @@ appliedenergistics2:tile.BlockQuantumLinkChamber, ME Quantum Link Chamber
 appliedenergistics2:tile.BlockSpatialPylon, Spatial Pylon
 appliedenergistics2:tile.BlockSpatialIOPort, Spatial IO Port
 appliedenergistics2:tile.BlockCableBus, AE2 Cable and/or Bus
-appliedenergistics2:tile.BlockController, ME Controller
 appliedenergistics2:tile.BlockDrive, ME Drive
 appliedenergistics2:tile.BlockChest, ME Chest
 appliedenergistics2:tile.BlockInterface, ME Interface
@@ -4748,7 +4747,7 @@ ThermalFoundation:FluidCoal, Liquifacted Coal
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quantum Emission Decompiler)
+ExtraUtilities:endConstructor:0, QED (Quod Erat Demonstrandum)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -6638,40 +6637,40 @@ thaumicenergistics:thaumicenergistics.block.arcane.assembler, Arcane Assembler
 thaumicenergistics:thaumicenergistics.block.knowledge.inscriber, Knowledge Inscriber
 thaumicenergistics:thaumicenergistics.block.essentia.vibration.chamber, Essentia Vibration Chamber
 thaumicenergistics:thaumicenergistics.block.distillation.encoder, Distillation Pattern Encoder
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:golemConnector, Golem Connector
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
 ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:funnel, Essentia Funnel
 ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:dislocator, Transvector Dislocator
 ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
 ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
 ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:golemConnector, Golem Connector
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:enchanter, Osmotic Enchanter
 ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:platform, Ethereal Platform
 ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
 ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:funnel, Essentia Funnel
 ThermalDynamics:ThermalDynamics_0:0, Leadstone Fluxduct
 ThermalDynamics:ThermalDynamics_0:1, Hardened Fluxduct
 ThermalDynamics:ThermalDynamics_0:2, Redstone Energy Fluxduct
@@ -9158,10 +9157,10 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Birch Trim
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Jungle Trim
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Acacia Trim
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Dark Oak Trim
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemCrystalSeed:0, Certus Quartz Seed
 appliedenergistics2:item.ItemCrystalSeed:600, Nether Quartz Seed
 appliedenergistics2:item.ItemCrystalSeed:1200, Fluix Seed
@@ -9272,23 +9271,6 @@ appliedenergistics2:item.ItemMultiPart:33, ME Covered Cable - Green
 appliedenergistics2:item.ItemMultiPart:34, ME Covered Cable - Red
 appliedenergistics2:item.ItemMultiPart:35, ME Covered Cable - Black
 appliedenergistics2:item.ItemMultiPart:36, ME Covered Cable - Fluix
-appliedenergistics2:item.ItemMultiPart:60, ME Dense Cable - White
-appliedenergistics2:item.ItemMultiPart:61, ME Dense Cable - Orange
-appliedenergistics2:item.ItemMultiPart:62, ME Dense Cable - Magenta
-appliedenergistics2:item.ItemMultiPart:63, ME Dense Cable - Light Blue
-appliedenergistics2:item.ItemMultiPart:64, ME Dense Cable - Yellow
-appliedenergistics2:item.ItemMultiPart:65, ME Dense Cable - Lime
-appliedenergistics2:item.ItemMultiPart:66, ME Dense Cable - Pink
-appliedenergistics2:item.ItemMultiPart:67, ME Dense Cable - Gray
-appliedenergistics2:item.ItemMultiPart:68, ME Dense Cable - Light Gray
-appliedenergistics2:item.ItemMultiPart:69, ME Dense Cable - Cyan
-appliedenergistics2:item.ItemMultiPart:70, ME Dense Cable - Purple
-appliedenergistics2:item.ItemMultiPart:71, ME Dense Cable - Blue
-appliedenergistics2:item.ItemMultiPart:72, ME Dense Cable - Brown
-appliedenergistics2:item.ItemMultiPart:73, ME Dense Cable - Green
-appliedenergistics2:item.ItemMultiPart:74, ME Dense Cable - Red
-appliedenergistics2:item.ItemMultiPart:75, ME Dense Cable - Black
-appliedenergistics2:item.ItemMultiPart:76, ME Dense Cable - Fluix
 appliedenergistics2:item.ItemMultiPart:0, ME Glass Cable - White
 appliedenergistics2:item.ItemMultiPart:1, ME Glass Cable - Orange
 appliedenergistics2:item.ItemMultiPart:2, ME Glass Cable - Magenta
@@ -9306,23 +9288,6 @@ appliedenergistics2:item.ItemMultiPart:13, ME Glass Cable - Green
 appliedenergistics2:item.ItemMultiPart:14, ME Glass Cable - Red
 appliedenergistics2:item.ItemMultiPart:15, ME Glass Cable - Black
 appliedenergistics2:item.ItemMultiPart:16, ME Glass Cable - Fluix
-appliedenergistics2:item.ItemMultiPart:40, ME Smart Cable - White
-appliedenergistics2:item.ItemMultiPart:41, ME Smart Cable - Orange
-appliedenergistics2:item.ItemMultiPart:42, ME Smart Cable - Magenta
-appliedenergistics2:item.ItemMultiPart:43, ME Smart Cable - Light Blue
-appliedenergistics2:item.ItemMultiPart:44, ME Smart Cable - Yellow
-appliedenergistics2:item.ItemMultiPart:45, ME Smart Cable - Lime
-appliedenergistics2:item.ItemMultiPart:46, ME Smart Cable - Pink
-appliedenergistics2:item.ItemMultiPart:47, ME Smart Cable - Gray
-appliedenergistics2:item.ItemMultiPart:48, ME Smart Cable - Light Gray
-appliedenergistics2:item.ItemMultiPart:49, ME Smart Cable - Cyan
-appliedenergistics2:item.ItemMultiPart:50, ME Smart Cable - Purple
-appliedenergistics2:item.ItemMultiPart:51, ME Smart Cable - Blue
-appliedenergistics2:item.ItemMultiPart:52, ME Smart Cable - Brown
-appliedenergistics2:item.ItemMultiPart:53, ME Smart Cable - Green
-appliedenergistics2:item.ItemMultiPart:54, ME Smart Cable - Red
-appliedenergistics2:item.ItemMultiPart:55, ME Smart Cable - Black
-appliedenergistics2:item.ItemMultiPart:56, ME Smart Cable - Fluix
 appliedenergistics2:item.ItemMultiPart:420, ME Conversion Monitor
 appliedenergistics2:item.ItemMultiPart:360, ME Crafting Terminal
 appliedenergistics2:item.ItemMultiPart:200, Dark Illuminated Panel
@@ -20701,22 +20666,22 @@ ThermalDynamics:cover:0, Birch Trim Cover
 ThermalDynamics:cover:0, Jungle Trim Cover
 ThermalDynamics:cover:0, Acacia Trim Cover
 ThermalDynamics:cover:0, Dark Oak Trim Cover
-ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
-ThermalDynamics:cover:0, tile.gaseousLight.name Cover
-ThermalDynamics:cover:0, Ignis Imbued Fire Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
-ThermalDynamics:cover:0, Aqua Imbued Fire Cover
-ThermalDynamics:cover:0, Ordo Imbued Fire Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Bedrock Portal Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
 ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
 ThermalDynamics:cover:0, tile.nitorGas.name Cover
+ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, Bedrock Portal Cover
 ThermalDynamics:cover:0, Terra Imbued Fire Cover
+ThermalDynamics:cover:0, Ordo Imbued Fire Cover
+ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
+ThermalDynamics:cover:0, Ignis Imbued Fire Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
 ThermalDynamics:retriever:0, Retriever
 ThermalDynamics:retriever:1, Hardened Retriever
 ThermalDynamics:retriever:2, Reinforced Retriever
